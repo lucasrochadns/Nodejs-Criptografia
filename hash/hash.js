@@ -25,6 +25,6 @@ class Usuario{
 const usuario = new Usuario('whoami', 'ASdf&&98611314');
 console.log(usuario);
 
-usuario.autenticar('whoami', 'ASdf&&98611314');
-usuario.autenticar('lucasrocha', 'Asdf&&98611314');
+usuario.autenticar('whoami', '98611314');
+usuario.autenticar('lucasrocha', '98611314');
 usuario.autenticar('whoami', 'FDsa&&98611314');
